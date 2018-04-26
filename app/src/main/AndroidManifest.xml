@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".About" />
+        <activity android:name=".Courses.Courses" />
+        <activity android:name=".Courses.Tutorial" />
+        <activity android:name=".Courses.Example" />
+        <activity android:name=".Courses.Exercises" />
+        <activity android:name=".Tutorial.Unit1.Unit1" />
+        <activity android:name=".Tutorial.Unit2" />
+        <activity android:name=".Tutorial.Unit3" />
+        <activity android:name=".Tutorial.Unit4" />
+        <activity android:name=".Tutorial.Unit5" />
+        <activity android:name=".Tutorial.Unit6" />
+        <activity android:name=".Tutorial.Unit7" />
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson1" />
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson2" />
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson3" />
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson4"></activity>
     </application>
 
 </manifest>
