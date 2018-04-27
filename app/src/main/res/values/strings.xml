@@ -1,3 +1,305 @@
+<!DOCTYPE resources [<!ENTITY nbsp "&#160;"><!-- non-breaking space, U+00A0 --><!ENTITY ndash "&#8211;"><!ENTITY plusmn "&#177;"><!ENTITY Ouml "&#246;"><!ENTITY ne "&#8800;"><!ENTITY lsquo "&#8216;"><!ENTITY rsquo "&#8217;"><!ENTITY ldquo "&#8220;"><!ENTITY rdquo "&#8221;"><!ENTITY THORN "&#254;"><!ENTITY times "&#215;">
+
+
+    ]>
 <resources>
     <string name="app_name">GehueGuru Quant</string>
+    <string name="title_activity_introduction_lesson1">IntroductionLesson1</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="number_is_a_nu">Number is “a numeral or group of numerals”. In this lesson, you will learn different types of numbers and divisibility rules of natural numbers. It is important for the students to understand the different types of numbers as it forms the base for all questions that will follow.</string>
+    <string name="this_le">This lesson consists of 9 pages besides the assignment and assessment. It is approximately 5% of the whole course. It is advisable to plan your time in such a way that you complete the whole course within this timeline. If the course is instructor driven, this lesson should take around 1.5 hours to discuss. On the other hand, if you are doing self study, this lesson would require around 3 hours to complete. After understanding the concepts and the solved examples, you must put in around 4-5 hours in practicing the various types of problems in the topic.When you go through the learning outcomes, keep in your mind that these are the final objectives to be derived while studying this lesson.</string>
+    <string name="after_c">"After completion of this lesson, you will be able to:\n\n"
+"\u2022	Understand different types of numbers\n"
+"\u2022	Know the classification of numbers\n"
+        "\u2022	Understand divisibility rules of different numbers\n"
+"\u2022	Learn to solve problems in the most effective way\n"
+
+</string>
+    <string name="if_a_n">"If a number can be expressed as a fraction (p/q) where p and q are integers and q≠0, then the number is known as Rational Number. The term ‘rational’ originates from the word ratio, simply because the rational numbers can be written in the format of a ratio.\n\n"
+
+"For example – 2/5, 4/7, 23/4 etc are rational numbers.  Rational numbers can be positive as well as negative.\n\n"
+        <b>"Irrational Numbers\n\n"</b>
+"Any real number that is not rational is irrational. In other words, an irrational number cannot be written as a fraction p/q for any integer p and q.\n"
+"Most famous irrational number is 2, also known as Pythagoras's constant.\n\n"
+<b>"Integers\n\n"</b>
+"Any real number that does not have a decimal is an integer. Integers can be either positive or negative or zero.  For example: 2, 3, -10, -22, o0 etc are integers.\n"
+"Integers are also classified as Odd or even integers.\n"
+"Even Integers – An integer that can be expressed in the format of 2N is known as an even integer, where N is an integer. In other words, any number that is divisible by 2 is an even integer. For example: 2, 4, 100 etc.\n"
+"Odd Integers – An integer that can be expressed in the format of 2N +1 is known as an odd integer, where N is an integer. For example 1, 5, 101, -23 are odd integers.\n"
+"Following calculations can be done between Odd and Even integers:\n\n"
+"Odd ± Odd = Even\n"
+ "Even ± Even = Even\n"
+"Odd ± Even = Odd\n"
+"Even ± Odd = Odd\n"
+"(Even)Odd = Even\n"
+"(Odd)Even = Odd\n"
+        <b>"Natural Number\n\n"</b>
+"Natural numbers are numbers used in counting: 1, 2, 3, 4, 5................upto infinity. Natural numbers are also known as positive integers.\n"
+Lowest natural number = 1.\n\n"
+<b>Whole Numbers</b><br></br>
+When 0 is added to the set of natural numbers, we obtain whole numbers.  So whole numbers are 0,1,2,3,4,5,................upto infinity. Whole numbers are also known as Non-negative integers.
+Lowest whole number = 0
+        <b>Prime Number –</b><br></br>
+Any number that has exactly two distinct factors is known as prime number. In other words, any number which is divisible by 1 and itself only is known as a prime number. For example –: 2 is a prime number, because 2 is divisible by 1 and 2 only (two distinct factors only).
+Lowest Prime Number  2
+Composite Number –
+Composite numbers are all the natural numbers which are greater than one and are not prime numbers. In other words, composite numbers are those numbers which will have atleast one factor other than 1 and itself. Hence composite numbers will have atleast 3 factors.
+Lowest composite number = 4.
+Remember that 1 is neither Prime number nor composite number.
+Real Number Line
+Real number line (in short also known as number line) consists of the union of the rational and irrational numbers.
+Every real number can be shown with a single point on the real number line as shown in image 1.1.
+</string>
+    <string name="n">"<p>Types of Number and their definition: Numbers can be defined to be of two types &ndash;
+        Real Number and Imaginary Number. Real number &ndash; Real number can be expressed on the number line. In other words, all the real numbers can be felt or experienced in the real world. Imaginary number &ndash;
+        In contrast to Real numbers, Imaginary numbers cannot be plotted on the number line and they cannot be felt or experienced in the real world.</p>
+"</string>
+    <string name="if_a_number">"<p>If a number can be expressed as a fraction (p/q)&nbsp;where&nbsp;p&nbsp;and&nbsp;q&nbsp;are integers andq&ne;0, then the number is known as Rational Number. The term &lsquo;rational&rsquo;
+        originates from the word ratio, simplybecause the rational numbers can be written in the format of a ratio.</p>
+
+<p>&nbsp;</p>
+
+<p>For example &ndash; 2/5, 4/7, 23/4 etc are rational numbers.&nbsp;&nbsp;Rational numbers can be positive as well as negative.&nbsp;</p>
+
+<p><b>Irrational Numbers</b></p>
+
+<p>Any real number that is not rational is irrational. In other words, an irrational number cannot be written as a fraction&nbsp;p/q&nbsp;for any integer p and q.&nbsp;</p>
+
+<p>Most famous irrational number is&Ouml;2, also known as Pythagoras&#39;s constant.</p>
+
+<p><b>Integers</b></p>
+
+<p>Any real number that does not have a decimal is an integer. Integers can be either positive or negative or zero.&nbsp;&nbsp;For example: 2, 3, -10, -22, o0 etc are integers.</p>
+
+<p>Integers are also classified as Odd or even integers.</p>
+
+<p>Even Integers &ndash; An integer that can be expressed in the format of 2N is known as an even integer, where N is an integer. In other words, any number that is divisible by 2 is an even integer. For example: 2, 4, 100 etc.&nbsp;</p>
+
+<p>Odd Integers &ndash; An integer that can be expressed in the format of 2N +1 is known as an odd integer, where N is an integer. For example 1, 5, 101, -23 are odd integers.</p>
+
+<p>Following calculations can be done between Odd and Even integers:</p>
+
+<p>Odd &plusmn; Odd = Even</p>
+
+<p>Even &plusmn; Even = Even</p>
+
+<p>Odd &plusmn; Even = Odd</p>
+
+<p>Even &plusmn; Odd = Odd</p>
+
+<p>(Even)<sup>Odd</sup>= Even&nbsp;</p>
+
+<p>(Odd)<sup>Even</sup>= Odd</p>
+
+<p><b>Natural Number</b></p>
+
+<p>Natural numbers are numbers used in counting: 1, 2, 3, 4, 5................upto infinity. Natural numbers are also known as positive integers.</p>
+
+<p>Lowest natural number = 1.</p>
+
+<p><b>Whole Numbers</b></p>
+
+<p>When 0 is added to the set of natural numbers, we obtain whole numbers.&nbsp;&nbsp;So whole numbers are 0,1,2,3,4,5,................upto infinity. Whole numbers are also known as Non-negative integers.&nbsp;</p>
+
+<p>Lowest whole number = 0</p>
+
+<p><b>Prime Number &ndash;&nbsp;</b></p>
+
+<p>Any number that has exactly two distinct factors is known as prime number. In other words, any number which is divisible by 1 and itself only is known as a prime number. For example &ndash;: 2 is a prime number, because 2 is divisible by 1 and 2 only (two distinct factors only).&nbsp;</p>
+
+<p>Lowest Prime Number&nbsp;=2</p>
+
+<p><b>Composite Number &ndash;&nbsp;</b></p>
+
+<p>Composite numbers are all the natural numbers&nbsp;which are greater than one and are not prime numbers.&nbsp;In other words, composite numbers are those numbers which will have atleast one factor other than 1 and itself. Hence composite numbers will have atleast 3 factors.&nbsp;</p>
+
+<p>Lowest composite number = 4.</p>
+
+<p>Remember that 1 is neither Prime number nor composite number.</p>
+
+<p><b>Real Number Line&nbsp;</b></p>
+
+<p>Real number line(in short also known as number line) consists of the union of the rational and irrational numbers.&nbsp;</p>
+
+<p>Every real number can be shown with a single point on the&nbsp;<b>real number line&nbsp;</b>as shown in image 1.1.</p>"
+</string>
+    <string name="realnumber"><ul>
+	<li>On the left hand side, it extends to&nbsp;&nbsp;&ndash; infinity (-) to&nbsp;&nbsp;(+&nbsp;on the right hand side.</li>
+</ul>
+
+<ul>
+	<li style="margin-bottom:0cm;margin-bottom:.0001pt;text-autospace:none;">Numbers on the right hand side are always larger than the numbers on the left hand side.</li>
+</ul>
+</string>
+    <string name="realnumbercontinue">"<p><strong>Example 1:</strong>x, y and z are three odd natural numbers. Which of the following will NOT be an Odd Integer?</p>
+
+<p>(a) x&nbsp;<span style="font-family:Symbol">+</span>y&nbsp;<span style="font-family:Symbol">+</span>z</p>
+
+<p>(b) x - y&nbsp;<span style="font-family:Symbol">+</span>z</p>
+
+<p>(c) x&nbsp;<span style="font-family:Symbol">+</span>2y&nbsp;<span style="font-family:Symbol">+</span>3z</p>
+
+<p>(d) 2x&nbsp;<span style="font-family:Symbol">+</span>3y&nbsp;<span style="font-family:Symbol">+</span>4z</p>
+
+<p><strong>Solution:&nbsp;</strong></p>
+
+<p>To solve these questions, it is best to assume the values of x, y and z and verify the options one by one.</p>
+
+<p>Assume x&nbsp;<span style="font-family:Symbol">=</span>5, y&nbsp;<span style="font-family:Symbol">=</span>3 and z&nbsp;<span style="font-family:Symbol">=</span>1</p>
+
+<p>Verifying option (a) x&nbsp;<span style="font-family:Symbol">+</span>y&nbsp;<span style="font-family:Symbol">+</span>z&nbsp;<span style="font-family:Symbol">=</span>5&nbsp;<span style="font-family:Symbol">+</span>3&nbsp;<span style="font-family:Symbol">+</span>1&nbsp;<span style="font-family:Symbol">=</span>9. This is an odd number. Hence option (a) is not the answer.</p>
+
+<p>Verifying option (b) x - y&nbsp;<span style="font-family:Symbol">+</span>z&nbsp;<span style="font-family:Symbol">=</span>5 - 3&nbsp;<span style="font-family:Symbol">+</span>1&nbsp;<span style="font-family:Symbol">=</span>3. This is an odd number. Hence option (b) is not the answer.</p>
+
+<p>Verifying option (c) x&nbsp;<span style="font-family:Symbol">+</span>2y&nbsp;<span style="font-family:Symbol">+</span>3z&nbsp;<span style="font-family:Symbol">=</span>5&nbsp;<span style="font-family:Symbol">+</span>6&nbsp;<span style="font-family:Symbol">+</span>3&nbsp;<span style="font-family:Symbol">=</span>14. This is an even number. Hence option (c) is the answer.</p>
+
+<p>Verifying option (d) 2x&nbsp;<span style="font-family:Symbol">+</span>3y&nbsp;<span style="font-family:Symbol">+</span>4z&nbsp;<span style="font-family:Symbol">=</span>10&nbsp;<span style="font-family:Symbol">+</span>9&nbsp;<span style="font-family:Symbol">+</span>4&nbsp;<span style="font-family:Symbol">=</span>23. This is an odd number. Hence option (d) is not the answer.</p>
+
+<p><strong>Example 2:</strong>p, q, r and s are four natural numbers. Two of these are odd and other two are even, though we do not know which two are even and other two are odd. Which of the following will MUST be an Even Integer?</p>
+
+<p>(a) p&nbsp;<span style="font-family:Symbol">+</span>q&nbsp;</p>
+
+<p>(b) p - r</p>
+
+<p>(c) p&nbsp;<span style="font-family:Symbol">+</span>q&nbsp;<span style="font-family:Symbol">+</span>r - s</p>
+
+<p>(d) 2p&nbsp;<span style="font-family:Symbol">+</span>3q&nbsp;<span style="font-family:Symbol">+</span>4r</p>
+
+<p><strong>Solution</strong>:&nbsp;</p>
+
+<p>At first, note that to solve this question, you will not be able to assume values as question does not provide the exact nature of the numbers a, b, c and d. The only point given is &ndash;
+    two of these are Odd and other two are even.</p>
+
+<p>Further, since question is asking for &ldquo;Must be&rdquo; an even number, an option can be eliminated if it gets an Odd number at the end.</p>
+
+<p>Let us verify the options one by one:</p>
+
+<p>Option (a) p&nbsp;<span style="font-family:Symbol">+</span>q</p>
+
+<p>Option (a) p&nbsp;<span style="font-family:Symbol">+</span>q can be an odd number if p is an odd number and q is an even number. Hence option (a) will be eliminated.</p>
+
+<p>&nbsp;Option (b) p - r</p>
+
+<p>Option (b) p - r can be an odd number if p is an odd number and r is an even number. Hence option (b) will be eliminated.</p>
+
+<p>Option (c) p&nbsp;<span style="font-family:Symbol">+</span>q&nbsp;<span style="font-family:Symbol">+</span>r &ndash;
+    s contains two odd numbers and two even numbers. Resultant of two odd numbers will be always even number and resultant of two even numbers will be an even number. Finally resultant of these even numbers will again be an even number. Hence option (c) is the answer.&nbsp;</p>
+
+<p>Option (d) 2p&nbsp;<span style="font-family:Symbol">+</span>3q&nbsp;<span style="font-family:Symbol">+</span>4r can be an odd number if p is an odd number, q is an odd number and r is an even number. Hence option (d) will be eliminated.</p>
+"</string>
+    <string name="realnumbercontinue1">"<p>Total number of single digit natural numbers&nbsp;<span style="font-family:Symbol">=</span>9. These numbers occur from 1 to 9.</p>
+
+<p>Total number of two-digits natural numbers&nbsp;<span style="font-family:Symbol">=</span>90. These numbers occur from 10 to 99.</p>
+
+<p>Total number of three-digits natural numbers&nbsp;<span style="font-family:Symbol">=</span>900. These numbers occur from 100 to 999.</p>
+
+<p>It can be generalized now that number of four-digits natural numbers = 9000 and so on.</p>
+
+<p><strong>Example 3:</strong>How many times the digits of a computer keyboard will be required to be pressed in typing 1<sup>st</sup>100 natural numbers?</p>
+
+<p><strong>Solution:&nbsp;</strong></p>
+
+<p>Natural numbers are going to be of single digit, two-digits and three-digits when you write 1<sup>st</sup>100 natural numbers.</p>
+
+<p>Number of natural numbers of 1 digit = 9&nbsp;<span style="font-family:Symbol">&THORN;</span>Number of digits = 9 &times;
+    1 = 9</p>
+
+<p>Number of natural numbers of 2 digits = 90&nbsp;<span style="font-family:Symbol">&THORN;</span>Number of digits = 90 &times;
+    2 = 180</p>
+
+<p>Number of natural numbers of 3 digits = 1&nbsp;<span style="font-family:Symbol">&THORN;</span>Number of digits = 1 &times;
+    3 = 3</p>
+
+<p>Hence total number of digits used in typing 1<sup>st</sup>100 natural numbers =&nbsp;&nbsp;9 + 180 + 3 = 192</p>
+"</string>
+    <string name="title_activity_countinglesson1">Countinglesson1</string>
 </resources>

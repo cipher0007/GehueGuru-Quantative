@@ -7,7 +7,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 import com.cipher0007.yash.gehueguruquant.R;
-import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Lesson.Lesson1;
+import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Lesson.Lesson1.Lesson1;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Lesson.Lesson2;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Lesson.Lesson3;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Lesson.Lesson4;

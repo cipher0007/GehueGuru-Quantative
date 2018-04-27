@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".About" />
         <activity android:name=".Courses.Courses" />
         <activity android:name=".Courses.Tutorial" />
@@ -28,10 +30,18 @@
         <activity android:name=".Tutorial.Unit5" />
         <activity android:name=".Tutorial.Unit6" />
         <activity android:name=".Tutorial.Unit7" />
-        <activity android:name=".Tutorial.Unit1.Lesson.Lesson1" />
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson1.Lesson1" />
         <activity android:name=".Tutorial.Unit1.Lesson.Lesson2" />
         <activity android:name=".Tutorial.Unit1.Lesson.Lesson3" />
-        <activity android:name=".Tutorial.Unit1.Lesson.Lesson4"></activity>
+        <activity android:name=".Tutorial.Unit1.Lesson.Lesson4" />
+        <activity
+            android:name=".Tutorial.Unit1.Lesson.Lesson1.IntroductionLesson1"
+            android:label="@string/title_activity_introduction_lesson1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit1.Lesson.Lesson1.Countinglesson1"
+            android:label="@string/title_activity_countinglesson1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
