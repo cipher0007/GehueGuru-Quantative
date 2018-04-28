@@ -29,7 +29,7 @@ private CardView unit1,unit2,unit3,unit4,unit5,unit6,unit7;
         unit5=findViewById(R.id.unit5);
         unit6=findViewById(R.id.unit6);
         unit7=findViewById(R.id.unit7);
-
+//asasas
         unit1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
