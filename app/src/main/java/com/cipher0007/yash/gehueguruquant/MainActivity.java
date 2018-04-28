@@ -26,6 +26,14 @@ private RelativeLayout about,courses;
                 startActivity(courses);
             }
         });
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent about =new Intent(MainActivity.this,About.class);
+                startActivity(about);
+            }
+        });
+
 
     }
 }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#FAFAFA">
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+
+                android:layout_height="251dp"
+                android:src="@drawable/gehu"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Graphic Era Hill University was established on April 28, 2011 under Section 2(f) of the UGC Act, 1956 under the aegis of Graphic Era Educational Society, Dehradun. Since its inception the university has been growing at an exponential pace under the able guidance of our excellent leadership and dedicated services of the staff and faculty members."/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our presence can now be felt on national and international platforms. The aim of the university is to impart high quality knowledge and skills over a wide spectrum of professional and technical domains such as engineering, law, management, allied sciences, architecture, humanities, commerce, design and fine arts, and to provide world class training and research facilities, especially to the people hailing from the hills of the state of Uttarakhand.
+
+We visualize Graphic Era Hill University (GEHU) as an internationally recognized, inquiry- driven, ethically engaged destination university with a diverse community, whose members work collaboratively, for the positive transformation of the world by pioneering teaching, research and social awareness.
+
+The mission of the university is to promote learning in the true spirit. The university offers the knowledge and skills needed to succeed as professionals and the values and sensitivity needed to become responsible citizens of the world.
+
+The university has campuses at Dehradun as well as at Bhimtal. All these campuses are designed as self- contained communities with academic and research facilities, laboratories, libraries, administrative offices etc.
+
+The unique feature of this university is that it provides 25% concession in the fee structure for the students of the hilly areas."/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

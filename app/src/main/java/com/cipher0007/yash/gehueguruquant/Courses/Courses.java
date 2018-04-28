@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
+import com.cipher0007.yash.gehueguruquant.Copyright;
+import com.cipher0007.yash.gehueguruquant.Exercise.Exercises;
 import com.cipher0007.yash.gehueguruquant.R;
 
 public class Courses extends AppCompatActivity {
-    private CardView tutorial, example, exercise;
+    private CardView tutorial, example, exercise, copyright;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +20,7 @@ public class Courses extends AppCompatActivity {
         tutorial = findViewById(R.id.tutorial);
         example = findViewById(R.id.example);
         exercise = findViewById(R.id.exercises);
-
+        copyright = findViewById(R.id.copyright);
         tutorial.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,6 +44,14 @@ public class Courses extends AppCompatActivity {
                 startActivity(exercise);
             }
         });
+        copyright.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent exercise = new Intent(Courses.this, Copyright.class);
+                startActivity(exercise);
+            }
+        });
+
 
     }
 }
