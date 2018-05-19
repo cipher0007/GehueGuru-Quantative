@@ -400,9 +400,50 @@ Every real number can be shown with a single point on the real number line as sh
 <p><span style="letter-spacing:0.25pt; line-height:22px">Sum of digits&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">=</span><span style="letter-spacing:0.25pt; line-height:22px">4&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">+</span><span style="letter-spacing:0.25pt; line-height:22px">7&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">+</span><span style="letter-spacing:0.25pt; line-height:22px">5&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">+</span><span style="letter-spacing:0.25pt; line-height:22px">3&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">+</span><span style="letter-spacing:0.25pt; line-height:22px">2&nbsp;</span><span style="font-family:Symbol; letter-spacing:0.25pt; line-height:22px">=</span><span style="letter-spacing:0.25pt; line-height:22px">21. Since 21 is divisible by 3, hence option (d) is the answer.</span></p>
 "</string>
     <string name="title_activity_exercise_lesson1">Activity 1.1</string>
+    <string name="act3_1">"In a cricket match, a team had a target of scoring 270 runs in 50 overs. In the first 30 overs, the average runs scored by the team per over was 6.5 runs. What is the average runs per over that the team will have to score in the remaining overs in order to win the match?
+	_______________________________________________________
+	_______________________________________________________
+	_______________________________________________________
+"</string>
+    <string name="act2_5">"At Simple Interest, a sum of money amounts to four times its original value in six years. What is the rate of interest?
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________"</string>
+    <string name="act2_4">"A shopkeeper claims to sell his goods at his cost price. But he gives only 800 grams to the customer. What is shopkeeper’s profit percentage in the whole transaction?
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________"</string>
+    <string name="act2_3">"A grocer sold an article for USD 45 after losing 25% of his cost price. At what price shall he sells it so that there is a profit percentage of 20%?
+__________________________________________________________________________________________________________________________________________________________________________
+"</string>
+    <string name="act2_2">"Population of a town increases by 10% in the first year, and decreases by 20% in the second year. What is the percentage change in the population of the town during the whole period?
+	____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+"</string>
+    <string name="activity2_1">"There are two quantities X and Y. It is given that X is 20% more than Y. By what percentage, Y is less than X?
+____________________________________________________________________________________________________________________________________________________________________________
+"</string>
+    <string name="activity1_4">"What is the unit digit of 784345
+________________________________________________________________________________________________________________________________________________________________________
+"</string>
+    <string name="activity1_4_solu">"1. (Any digit)4n+1 = Same digit will be obtained
+2. (Any odd digit)4n – Unit digit obtained = 1, where n is any natural number.
+Exception – if the odd digit = 5, then the unit digit obtained for 5any natural number = 5.
+3. (Any even digit)4n – Unit digit obtained = 6, where n is any natural number.
+Exception – If the digit  0, then the unit digit obtained for 0any natural number = 0.
+"</string>
+    <string name="activity1_2">"HCF of two natural numbers = 20 and their product  1200. How many sets of such two natural numbers are possible?
+__________________________________________________________________________________________________________________________________________________________________________"</string>
     <string name="activity1lesson1">"How many natural numbers are from 100 to 200?
 __________________________________________________________________________________________________________________________________________________________________________
 "</string>
+    <string name="activity1_3">"What is the remainder when 1020 is divided by 11?
+__________________________________________________________________________________________________________________________________________________________________________"</string>
+    <string name="activity1_3_solu">"1. If a number N can be written as P  Q, then remainder obtained when N is divided by another number X is same if P and Q are individually divided by number X, and final remainder is calculated by multiplying these individual remainders.
+2. Fermat’s theorem on Remainder
+Let P be a prime number and N be a number not divisible by P (in other words N and P are co-prime).
+Remainder obtained when   provided HCF(N, P) = 1, and P is a prime number.
+3. If g(x) divides f(x), f(x) is divisible by g(x) or g(x) is a factor of f(x).
+"</string>
+    <string name="activity1_2_solu">"1. LCM is lowest positive number divisible by all the numbers given.
+2. HCF is the largest number that can divide the given set of numbers.
+3. LCM  HCF = Product of two numbers
+Above formula can be applied only in case of two numbers."</string>
     <string name="activity1lesson1aolution">"<p>1. All real numbers are of exactly one of the two types: either rational number or irrational number.</p>
 
 <p>2. A rational number is a number that can be expressed as a fraction (p/q) where p and q are integers and q&ne;0. If a real number is not rational, then it will be compulsorily irrational.</p>
@@ -429,5 +470,8 @@ ________________________________________________________________________________
 
 <p>And so on.</p>
 "</string>
+    <string name="title_activity_activity1_2">Activity1_2</string>
+    <string name="title_activity_activity1_3">Activity1_3</string>
+    <string name="title_activity_activity1_4">Activity1_4</string>
 
 </resources>
