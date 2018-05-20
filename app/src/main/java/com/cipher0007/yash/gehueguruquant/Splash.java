@@ -10,7 +10,7 @@ import android.os.Bundle;
 
 public class Splash extends AppCompatActivity {
 
-    MediaPlayer welc;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
