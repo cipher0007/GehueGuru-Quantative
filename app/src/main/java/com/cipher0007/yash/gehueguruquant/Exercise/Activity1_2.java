@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.cipher0007.yash.gehueguruquant.R;
-
+//hhjghg
 public class Activity1_2 extends AppCompatActivity {
     private CardView solution;
     @Override
