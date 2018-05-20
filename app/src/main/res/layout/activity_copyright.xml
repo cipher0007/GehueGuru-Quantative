@@ -45,5 +45,5 @@ Acknowledgement
 The development of this course material was funded by the Commonwealth of Learning, Burnaby, Canada as part of the Grant #2015-2585 generously made by The William and Flora Hewlett Foundation, USA.
 "/>
         </android.support.v7.widget.CardView>
-    </LinearLayout>
+       </LinearLayout>
 </RelativeLayout>

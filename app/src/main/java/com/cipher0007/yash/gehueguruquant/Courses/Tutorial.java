@@ -9,9 +9,9 @@ import android.view.View;
 
 import com.cipher0007.yash.gehueguruquant.R;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit1.Unit1;
-import com.cipher0007.yash.gehueguruquant.Tutorial.Unit2;
-import com.cipher0007.yash.gehueguruquant.Tutorial.Unit3;
-import com.cipher0007.yash.gehueguruquant.Tutorial.Unit4;
+import com.cipher0007.yash.gehueguruquant.Tutorial.Unit2.Unit2;
+import com.cipher0007.yash.gehueguruquant.Tutorial.Unit3.Unit3;
+import com.cipher0007.yash.gehueguruquant.Tutorial.Unit4.Unit4;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit5;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit6;
 import com.cipher0007.yash.gehueguruquant.Tutorial.Unit7;

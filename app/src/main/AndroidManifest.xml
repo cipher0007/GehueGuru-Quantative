@@ -25,9 +25,9 @@
         <activity android:name=".Courses.Example" />
         <activity android:name=".Exercise.Exercises" />
         <activity android:name=".Tutorial.Unit1.Unit1" />
-        <activity android:name=".Tutorial.Unit2" />
-        <activity android:name=".Tutorial.Unit3" />
-        <activity android:name=".Tutorial.Unit4" />
+        <activity android:name=".Tutorial.Unit2.Unit2" />
+        <activity android:name=".Tutorial.Unit3.Unit3" />
+        <activity android:name=".Tutorial.Unit4.Unit4" />
         <activity android:name=".Tutorial.Unit5" />
         <activity android:name=".Tutorial.Unit6" />
         <activity android:name=".Tutorial.Unit7" />
@@ -55,6 +55,177 @@
             android:name=".Exercise.ExerciseLesson1"
             android:label="@string/title_activity_exercise_lesson1"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson1.Intro"
+            android:label="@string/title_activity_lesson1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit2.LessonsUnit2.lesson1.Lesson1" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson1.Basics"
+            android:label="@string/title_activity_basics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson1.Concepts"
+            android:label="@string/title_activity_concepts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson1.Basic2"
+            android:label="@string/title_activity_basic2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit2.LessonsUnit2.lesson2.Lesson2" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson2.Intro2"
+            android:label="@string/title_activity_intro2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson2.basicofpl"
+            android:label="@string/title_activity_basicofpl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson2.ConceptFaulty"
+            android:label="@string/title_activity_concept_faulty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.lesson2.QuesPL"
+            android:label="@string/title_activity_ques_pl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit2.LessonsUnit2.Lesson3.Lesson3" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.Lesson3.Intro3"
+            android:label="@string/title_activity_intro3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.Lesson3.Calculations"
+            android:label="@string/title_activity_calculations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.Lesson3.Formula"
+            android:label="@string/title_activity_formula"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit2.LessonsUnit2.Lesson3.compare"
+            android:label="@string/title_activity_compare"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit3.Lesson1.Lesson1" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson1.Intro3"
+            android:label="@string/title_activity_intro3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson1.Definition"
+            android:label="@string/title_activity_definition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson1.Wdefinition"
+            android:label="@string/title_activity_wdefinition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson1.concepts"
+            android:label="@string/title_activity_concepts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit3.lesson2" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Intro32"
+            android:label="@string/title_activity_intro32"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Definition2"
+            android:label="@string/title_activity_definition2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Lesson41"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Property"
+            android:label="@string/title_activity_property"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Application"
+            android:label="@string/title_activity_application"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Proportion"
+            android:label="@string/title_activity_proportion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson2.Variation"
+            android:label="@string/title_activity_variation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit3.Lesson3.Lesson3" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson3.Intro33"
+            android:label="@string/title_activity_intro33"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson3.Alligation"
+            android:label="@string/title_activity_alligation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson3.Alligation2"
+            android:label="@string/title_activity_alligation2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit3.Lesson3.Replacement"
+            android:label="@string/title_activity_replacement"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Intro41"
+            android:label="@string/title_activity_intro41"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Problem"
+            android:label="@string/title_activity_problem"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Concepts"
+            android:label="@string/title_activity_concepts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Pipe"
+            android:label="@string/title_activity_pipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Alternate"
+            android:label="@string/title_activity_alternate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson1.Prblm"
+            android:label="@string/title_activity_prblm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Unit4.Lesson2.Lesson2" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Intro42"
+            android:label="@string/title_activity_intro42"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Basic"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Relation"
+            android:label="@string/title_activity_relation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Average"
+            android:label="@string/title_activity_average"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Relative"
+            android:label="@string/title_activity_relative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Train"
+            android:label="@string/title_activity_train"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Boat"
+            android:label="@string/title_activity_boat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tutorial.Unit4.Lesson2.Circle"
+            android:label="@string/title_activity_circle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tutorial.Lesson1"></activity>
     </application>
 
 </manifest>

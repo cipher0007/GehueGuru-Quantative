@@ -5,95 +5,28 @@
 <resources>
     <string name="app_name">GehueGuru Quant</string>
     <string name="title_activity_introduction_lesson1">1.1.1 Introduction</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+    <string name="lessintr">In this lesson, you are going to learn basics of percentage and application of percentage in different contexts. Concept of percentage forms the basic unit of arithmetic
+   This lesson consists of 7 pages besides the assignment and assessment. It covers approximately 5% of the course. You need to plan your time so that you can complete the whole course on schedule. If the course is instructor driven, this lesson should take around 2 hours to discuss. On the other hand, if you are doing self-study, this lesson would require around 4 hours to complete. After understanding the concepts and the solved examples, you must put in around 4-5 hours in practicing the various types of problems in the topic.
+Think about the learning outcomes as a guide to what you should focus on while studying this lesson.
 
-        "Bold, graphic, intentional.\n\n"
+Upon completion of this lesson, you will be able to:
+es	Understand what is Percentage
+Learn to do the percentage calculations
+Know the different types of problems in percentage
+Learn to solve the problems in the most effective way
+Apply the formula for Successive Percentage Change
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
 
-        "Motion provides meaning.\n\n"
+	Percentage:	When a quantity is expressed out of 100, it is known as Percentage.
+For example - if a student has scored 400 out of 600 total marks, then student’s percentage marks = 400/600100 = 66.66%. It means that – had the full marks been 100, this student would have achieved 66.66 marks.
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+		Percentage is represented by the symbol ‘%’.
 
-        "3D world.\n\n"
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+</string>
 
-        "Light and shadow.\n\n"
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
     <string name="action_settings">Settings</string>
     <string name="number_is_a_nu">Number is “a numeral or group of numerals”. In this lesson, you will learn different types of numbers and divisibility rules of natural numbers. It is important for the students to understand the different types of numbers as it forms the base for all questions that will follow.</string>
     <string name="this_le">This lesson consists of 9 pages besides the assignment and assessment. It is approximately 5% of the whole course. It is advisable to plan your time in such a way that you complete the whole course within this timeline. If the course is instructor driven, this lesson should take around 1.5 hours to discuss. On the other hand, if you are doing self study, this lesson would require around 3 hours to complete. After understanding the concepts and the solved examples, you must put in around 4-5 hours in practicing the various types of problems in the topic.When you go through the learning outcomes, keep in your mind that these are the final objectives to be derived while studying this lesson.</string>
@@ -429,5 +362,223 @@ ________________________________________________________________________________
 
 <p>And so on.</p>
 "</string>
+    <string name="title_activity_lesson1">Lesson1</string>
+    <string name="title_activity_basics">Basics</string>
+    <string name="concepts">"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="letter-spacing:.3pt">To understand the concept of Successive Percentage Change, consider the following example: Bill joined as a management trainee in an organization at a monthly salary of USD 600 in the year 2014. In the year 2015, he got an increment of 25% over his salary in 2014. In the year 2016, he got an increment of 20% over his salary in 2015.</span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It can be seen that the percentage increment in Bill&rsquo;s salary occur on the previous year&rsquo;s salary in 2015 as well as in 2016. So, the increment happens &lsquo;in succession&rsquo;
+    for each of the years. In other words, percentage increment in 2016 does NOT happen over his salary in 2014.</span></p>
+
+<p><span style="letter-spacing:.3pt">This is what we know as Successive Percentage Change.</span></p>
+
+<p><span style="letter-spacing:.3pt">To find out Bill&rsquo;s monthly salary in 2016, you can apply either percentage change method one by one for each of the years, or, you can simply use the formula for successive percentage change.</span></p>
+
+<p><span style="letter-spacing:.3pt">You will see both the methods one by one:</span></p>
+
+<p><strong><span style="letter-spacing:.3pt">Method 1 </span></strong><span style="letter-spacing:.3pt">&ndash;
+    Percentage Change method</span></p>
+
+<p><span style="letter-spacing:.3pt">Monthly salary in 2014 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 600</span></p>
+
+<p><span style="letter-spacing:.3pt">Monthly salary in 2015 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 25% more than the monthly salary in 2014 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> Monthly salary in 2014 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> 25% of monthly salary in 2014 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 600 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> 25% of USD 600 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 600 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> USD </span><span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif" width="41" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 600 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> USD 150 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 750</span></p>
+
+<p><span style="letter-spacing:.3pt">Next, Monthly salary in 2016 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 20% more than the monthly salary in 2015 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> Monthly salary in 2015 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> 20% of monthly salary in 2015 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 750 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> 20% of USD 750 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 750 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> USD </span><span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image004.gif" width="41" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 750 </span><span style="letter-spacing:.3pt">+</span><span style="letter-spacing:.3pt"> USD 150 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> USD 900</span></p>
+
+<p><strong><span style="letter-spacing:.3pt">Method 2 &ndash;</span></strong><span style="letter-spacing:.3pt"> Formula for Successive Percentage Change </span></p>
+
+<p>If there are two successive percentage increase of x% and y%, then net percentage change = (x + y + <span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif" width="19" /></span>)%</p>
+
+<p>In the example given above, x = 25% and y = 20%</p>
+
+<p>Then net percentage change = (25 + 20 + <span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image008.gif" width="31" /></span>)% = 50%</p>
+
+<p>Hence Bill&rsquo;s monthly salary in 2016 will be 50% more than his monthly salary in 2014.</p>
+
+<p>Bill&rsquo;s monthly salary in 2016 = Bill&rsquo;s monthly salary in 2014 + 50% of Bill&rsquo;s monthly salary in 2016 = USD 600 + 50% of USD 600 = USD 600 + USD <span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image010.gif" width="41" /></span>&nbsp;= USD 600 + USD 300 = USD 900</p>
+
+<p><span style="letter-spacing:.3pt"><img alt="" height="53" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg" width="54" /></span></p>
+
+<p>Note it!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If there is percentage increase, then plus sign (+) will be used; if there is percentage decrease, then minus sign (-) will be used</p>
+
+<p>For example, if there are two successive percentage changes of x% increase and y% decrease, then net percentage change = (x - y + <span style="position:relative; top:6.0pt"><img alt="" height="34" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image014.gif" width="30" /></span>)% = (x - y - <span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif" width="19" /></span>)%</p>
+
+<p>Similarly, if there are two successive percentage changes of x% decrease and y% decrease, then net percentage change = (-x - y + <span style="position:relative; top:6.0pt"><img alt="" height="34" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image016.gif" width="47" /></span>)% = (-x - y + <span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif" width="19" /></span>)%</p>
+
+<p><img alt="" height="54" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image018.jpg" width="70" /></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Tip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In mathematics, multiplication sign is considered as successive percentage change.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example 5: Length of a rectangle is increased by 20% and its breadth is decreased by 10%. What is the percentage change in area of the rectangle?</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solution:</p>
+
+<p>In this case, <span style="letter-spacing:.3pt">there are two successive percentage changes of x% increase and y% decrease, then net percentage change = (x - y + </span><span style="position:relative; top:6.0pt"><img alt="" height="34" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image014.gif" width="30" /></span><span style="letter-spacing:.3pt">)% = (x - y - </span><span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif" width="19" /></span><span style="letter-spacing:.3pt">)% </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 20 &ndash;
+    10 - </span><span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image020.gif" width="31" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 8%</span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hence percentage change in the area of rectangle </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 8% increase</span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Example 6:</strong> Price of an article is increased by 25%. By what percentage should be consumption be decreased so that expenditure on this article remains the same? </span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Solution:</strong> </span></p>
+
+<p><span style="letter-spacing:.3pt">It can be seen that Price </span><span style="letter-spacing:.3pt"></span><span style="letter-spacing:.3pt">&nbsp; Consumption </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> Expenditure</span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this question, it is given that price increases by 25%, and finally expenditure should remain the same. This is possible only if consumption is decreased by some certain percentage.</span></p>
+
+<p><span style="letter-spacing:.3pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using successive percentage change formula:</span></p>
+
+<p><span style="letter-spacing:.3pt">There are two changes:- 25% increase and y% decrease, leading to 0% change finally. </span></p>
+
+<p><span style="letter-spacing:.3pt">Or, 25 - y &ndash; </span><span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image022.gif" width="30" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 0</span></p>
+
+<p><span style="letter-spacing:.3pt">Or, 25 &ndash; y - </span><span style="position:relative; top:6.0pt"><img alt="" height="31" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image024.gif" width="9" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 0, or, 25 </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> y</span><span style="letter-spacing:.3pt">+</span> <span style="position:relative; top:6.0pt"><img alt="" height="31" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image024.gif" width="9" /></span>&nbsp;<span style="letter-spacing:.3pt">=</span> <span style="position:relative; top:6.0pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image026.gif" width="16" /></span></p>
+
+<p><span style="letter-spacing:.3pt">Hence y </span><span style="letter-spacing:.3pt">=</span><span style="letter-spacing:.3pt"> 20%.</span></p>
+
+<p><span style="letter-spacing:.3pt">So, consumption should be decreased by 20%.</span></p>
+
+<p><span style="letter-spacing:.3pt"><img alt="" height="60" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image028.jpg" width="70" /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;&nbsp; Activity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><span style="letter-spacing:.3pt">Activity 2.2:</span></strong><span style="letter-spacing:.3pt"> Population of a town increases by 10% in the first year, and decreases by 20% in the second year. What is the percentage change in the population of the town during the whole period?</span></p>
+
+<p><span style="letter-spacing:.3pt">____________________________________________________________________________________________________________________________________________________________________________________________________________________________________</span></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="summary" height="46" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image029.jpg" width="70" /></p>
+
+<p>&nbsp;Summary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. What percentage of p is q = <span style="position:relative; top:7.5pt"><img alt="" height="33" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image031.gif" width="7" /></span> 100.</p>
+
+<p>2. p% of q = <span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image033.gif" width="19" /></span>&nbsp; q. It can be seen that p% of q = q% of p</p>
+
+<p>3. <span style="letter-spacing:.3pt">Percentage Change </span><span style="letter-spacing:.3pt">=</span> <span style="position:relative; top:7.5pt"><img alt="" height="36" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image035.gif" width="149" /></span>&nbsp;<span style="letter-spacing:.3pt"></span><span style="letter-spacing:.3pt"> 100 %</span></p>
+
+<p>4. <span style="letter-spacing:.3pt">Successive Percentage Change: </span>If there are two successive percentage increase of x% and y%, then net percentage change = (x + y + <span style="position:relative; top:6.0pt"><img alt="" height="32" src="file:///C:\Users\user\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif" width="19" /></span>)%</p>"</string>
+    <string name="large_text">
+        
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_concepts">Concepts</string>
+    <string name="title_activity_basic2">Basic2</string>
+    <string name="title_activity_intro2">Intro2</string>
+    <string name="title_activity_basicofpl">basicofpl</string>
+    <string name="title_activity_concept_faulty">ConceptFaulty</string>
+    <string name="title_activity_ques_pl">QuesPL</string>
+    <string name="title_activity_intro3">Intro3</string>
+    <string name="title_activity_calculations">Calculations</string>
+    <string name="title_activity_formula">Formula</string>
+    <string name="title_activity_compare">compare</string>
+    <string name="title_activity_definition">Definition</string>
+    <string name="title_activity_wdefinition">Wdefinition</string>
+    <string name="title_activity_intro32">Intro32</string>
+    <string name="title_activity_definition2">Definition2</string>
+    <string name="title_activity_property">Property</string>
+    <string name="title_activity_application">Application</string>
+    <string name="title_activity_proportion">Proportion</string>
+    <string name="title_activity_variation">Variation</string>
+    <string name="title_activity_intro33">Intro33</string>
+    <string name="title_activity_alligation">Alligation</string>
+    <string name="title_activity_alligation2">Alligation2</string>
+    <string name="title_activity_replacement">Replacement</string>
+    <string name="title_activity_lesson2">Lesson2</string>
+    <string name="title_activity_intro41">Intro41</string>
+    <string name="title_activity_problem">Problem</string>
+    <string name="title_activity_pipe">Pipe</string>
+    <string name="title_activity_alternate">Alternate</string>
+    <string name="title_activity_prblm">Prblm</string>
+    <string name="title_activity_intro42">Intro42</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="title_activity_relation">Relation</string>
+    <string name="title_activity_average">Average</string>
+    <string name="title_activity_relative">Relative</string>
+    <string name="title_activity_train">Train</string>
+    <string name="title_activity_boat">Boat</string>
+    <string name="title_activity_circle">Circle</string>
 
 </resources>
